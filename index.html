@@ -1,0 +1,102 @@
+<!-- User Stories:
+
+Your tribute page should have a main element with a corresponding id of main, which contains all other elements
+You should see an element with an id of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
+You should see either a figure or a div element with an id of img-div
+Within the #img-div element, you should see an img element with a corresponding id="image"
+Within the #img-div element, you should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in #img-div
+You should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page
+You should see an a element with a corresponding id="tribute-link", which links to an outside site, that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab
+Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, without exceeding its original size
+Your img element should be centered within its parent element
+Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+
+Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS -->
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kobe Bryant">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Kobe Bryant - A Tribute Page</title>
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Kobe Bryant - The Mamba</h1>
+        <div id="img-div">
+            <img id="image" src="http://res.cloudinary.com/ybmedia/image/upload/c_crop,h_837,w_1489,x_378,y_185/c_fill,f_auto,h_900,q_auto,w_1600/v1/m/1/0/10d2b2e44e73f25bf1e58c0bb9b3a890522eb128/kobe-bryant-rookie-card-sells-nearly-18-million.jpg" alt="Kobe Bryant poses for a magazine photoshoot">
+            <figcaption id="img-caption">Kobe Bryant poses for a magazine shoot held in 1991 at the Coliseum in Los Angeles California.</figcaption>
+        </div>
+        <div id="tribute-info">
+            <h2 id="early-life">Early Life</h2>
+                <p>Kobe Bean Bryant was born on August 23, 1978, in Philadelphia, Pennsylvania. Named after a city in Japan, Bryant is the son of former NBA player Joe "Jellybean" Bryant.
+            In 1984, after ending his NBA career, the elder Bryant took the family to Italy, where he played in the Italian League. Growing up in Italy alongside two athletic older sisters, Shaya and Sharia, Bryant was an avid player of both basketball and soccer. When the family returned to Philadelphia in 1991, Bryant joined the Lower Merion High School basketball team, leading it to the state championships four years in a row. With an eye on the NBA, he also started working out with the 76ers.</p>
+
+            <h2 id="nba-career">NBA Career and Stats</h2>
+                <p>In his second season with the Lakers, Bryant was voted a starter for the 1998 All-Star Game, becoming the youngest All-Star in NBA history at 19. The shooting guard then teamed up with superstar center Shaquille O'Neal to win three consecutive NBA championships and was voted first-team all-NBA from 2002-2004. He also inked multi-year endorsement deals with Adidas, Sprite and other top sponsors.
+                Although the Lakers struggled after O'Neal left in 2004, Bryant performed brilliantly. He scored 81 points against the Toronto Raptors in January 2006, the second-highest single-game mark in NBA history, and led the league in scoring that year and the next.
+                In 2008, Bryant was named Most Valuable Player and carried his team to the NBA Finals, where they lost to the Boston Celtics. In the 2009 NBA Finals, the Lakers beat the Orlando Magic to win the championship. Shortly afterward, Bryant was part of the memorial service to honor friend and music superstar Michael Jackson. The following year, the Lakers won their second straight title by defeating the Celtics.
+                Bryant played on both the 2008 and 2012 U.S. Olympic teams, winning consecutive gold medals with teammates Kevin Durant, LeBron James and Carmelo Anthony, among several other top players.
+                After suffering a torn Achilles tendon in April 2013, Bryant worked hard to return to the court before fracturing his knee just six games into the 2013-2014 season. The veteran All-Star surpassed Michael Jordan for third all-time on the NBA scoring list in December 2014, but his season ended due to injury for the third straight year when he sustained a torn rotator cuff in January 2015.
+                </p>
+
+            <h2 id="retirement">Retirement</h2>
+                <p>Although Bryant returned in time for the start of the 2015-2016 NBA season, he personally struggled alongside his young Lakers teammates. In November 2015, he announced that he would retire at the end of the season. "This season is all I have left to give," he wrote on The Players' Tribune website. "My heart can take the pounding. My mind can handle the grind but my body knows it's time to say goodbye."
+                    The announcement drew a strong reaction, particularly from NBA Commissioner Adam Silver. "With 17 NBA All-Star selections, an NBA MVP, five NBA championships with the Lakers, two Olympic gold medals and a relentless work ethic, Kobe Bryant is one of the greatest players in the history of our game," Silver said in a statement. "Whether competing in the finals or hoisting jump shots after midnight in an empty gym, Kobe has an unconditional love for the game." On April 13, 2016, Bryant dazzled a sold-out crowd at the Staples Center and fans everywhere in the last game of his career, scoring 60 points and leading the Lakers to a win against the Utah Jazz. It was Bryant’s sixth 60-point game of his career.
+                    <br> After the game, Bryant spoke to the crowd. "I can't believe how fast 20 years went by," he said. "This is absolutely crazy ... and to be standing at center court with you guys, my teammates behind me, appreciating the journey that we've been on — we've been through our ups, been through our downs. I think the most important part is we all stayed together throughout."
+                    An all-star lineup of Laker icons also paid tribute to Bryant, including O’Neal, Phil Jackson, Pau Gasol, Derek Fisher, Lamar Odom and Magic Johnson. "We are here to celebrate greatness for 20 years," Johnson said. "Excellence for 20 years. Kobe Bryant has never cheated the game, never cheated us as the fans. He has played through injury, he has played hurt. And we have five championship banners to show for it."
+                </p>
+            
+            <h2 id="family">Wife and Children</h2>
+                <p>Bryant married 19-year-old Vanessa Laine in April 2001. The couple became parents to four daughters: Natalia Diamante (b. 2003), Gianna Maria-Onore (b. 2006, d. 2020), Bianka (b. 2016) and Capri (b. 2019).
+                </p>
+            
+            <h2 id="academy">Academy Award for 'Dear Basketball'</h2>
+                <p>In November 2015, Bryant announced his upcoming retirement from the Lakers with a poem on The Players' Tribune website, titled "Dear Basketball." The athletic great soon sought the best in other fields to turn his poem into a short film, including Disney animator Glen Keane and composer John Williams.
+                    The result was a beautifully rendered five-minute, 20-second film, which debuted at the 2017 Tribeca Film Festival. Oscar voters took note, leading to the unexpected sight of Bryant accepting an Academy Award for Best Animated Short Film at the 2018 ceremony.  
+                    The Academy of Motion Picture Arts and Science's short films and animation branch also extended an invitation for Bryant to become a member of the organization. However, in June 2018 it was revealed that the Academy's governors committee had rescinded the invitation, saying the retired basketball great needed to show more efforts in the field before being considered for membership.
+                </p>
+
+            <h2 id="death">Death</h2>
+                <p>On January 26, 2020, Bryant was onboard a Sikorsky S-76 helicopter that crashed in the Los Angeles suburb of Calabasas. Nine people, including Bryant and his 13-year-old daughter Gianna "Gigi," died. The helicopter was on its way from Orange County to Thousands Oaks, California where Bryant was scheduled to coach a tournament game at Mamba Sports Academy.
+                    Bryant and his daughter were laid to rest in a private funeral on February 7, 2020. On February 24, they were honored in a memorial service at the Staples Center, with Beyoncé and Alicia Keys delivering musical tributes and Jordan, Shaq and wife Vanessa among those sharing emotional recollections of the basketball great and family man.
+                    On April 4, 2020, Bryant was elected to the Naismith Memorial Basketball Hall of Fame.
+                    In February 2021, the National Transportation Safety Board ruled that pilot Ara Zobayan was “flying under visual flight orders, or VFR, which legally prohibited him from penetrating the clouds,” likely causing him to be disoriented.
+                </p>
+        </div>
+
+        
+        <h2 id="in-images">Kobe Bryant in images.</h2>
+        <div class="kobe-images"> 
+                <div><img src="https://www.biography.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Ch_2000%2Cq_auto:good%2Cw_2000/MTcwMDI0NDQxMTE4NTMyOTg1/gettyimages-79694399.jpg"></div>
+                <div><img src="https://www.biography.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Ch_2000%2Cq_auto:good%2Cw_2000/MTcwMDI0NDQxMTE4NTk4NTIx/gettyimages-460475914.jpg"></div>
+                <div><img src="https://www.biography.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Ch_2000%2Cq_auto:good%2Cw_2000/MTcwMDI0NDQxMTE4NTk4NzI5/gettyimages-521050936.jpg"></div>
+                <div><img src="https://www.biography.com/.image/c_limit%2Ccs_srgb%2Cfl_progressive%2Ch_2000%2Cq_auto:good%2Cw_2000/MTcwMDI0NDQxMzg2OTAyOTA1/gettyimages-895206690.jpg"> </div>           
+        </div>
+
+        <div id="kobe-video">
+            <h2>The Legend of Kobe Bryant</h2>
+            <iframe width="900px" height="500px" src="https://www.youtube.com/embed/Zg3j6anDU6U" title="The Legend of Kobe Bryant (Tribute) - 20 Minutes of Kobe's TOP 50 NBA Highlights 🐐" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="reference">
+            <p id="reference-link">Read more about Kobe Bryant's life in <a href="https://en.wikipedia.org/wiki/Kobe_Bryant" target="_blank" id="tribute-link">Kobe Bryant - Wikipedia</a></p>
+        </div>
+    </main>
+    
+</body>
+</html>
